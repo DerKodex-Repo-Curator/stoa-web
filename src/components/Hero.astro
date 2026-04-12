@@ -5,7 +5,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<section class="hero" id="hero" aria-label="Hero — The European Agent Gateway">
+<section class="hero" id="hero" aria-label="Hero — European Agent Gateway">
   <div class="hero-bg">
     <div class="orb orb-teal" data-parallax="0.15"></div>
     <div class="orb orb-purple" data-parallax="0.25"></div>
@@ -55,32 +55,13 @@ const t = useTranslations(lang);
     </div>
 
     <div class="hero-ctas reveal" data-reveal data-reveal-delay="300">
-      <a href="https://portal.gostoa.dev" class="btn btn-primary glow-btn">
-        {t('hero.cta.tryFree')}
+      <a href="mailto:demo@gostoa.dev?subject=STOA%20Demo%20Request" class="btn btn-primary glow-btn">
+        {t('hero.cta.primary')}
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
-      <a href="https://docs.gostoa.dev/docs/guides/quickstart" class="btn btn-secondary">
-        {t('hero.cta.quickStart')}
+      <a href="#scenario" class="btn btn-secondary">
+        {t('hero.cta.secondary')}
       </a>
-    </div>
-
-    <div class="hero-meta reveal" data-reveal data-reveal-delay="400">
-      <span class="meta-item">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 2v12l4-3 4 3V2z" stroke="#10b981" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
-        {t('hero.meta.prsMerged')}
-      </span>
-      <span class="meta-item">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 1l2.5 5 5.5.8-4 3.9 1 5.3L8 13l-5 3 1-5.3-4-3.9 5.5-.8z" fill="#8b5cf6"/></svg>
-        {t('hero.meta.prsDay')}
-      </span>
-      <span class="meta-item">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#2dd4bf" stroke-width="2" fill="none"/><path d="M6 8l2 2 3-4" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        {t('hero.meta.tests')}
-      </span>
-      <span class="meta-item">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="12" rx="2" stroke="#f59e0b" stroke-width="1.5" fill="none"/><path d="M5 8h6M8 5v6" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/></svg>
-        {t('hero.meta.days')}
-      </span>
     </div>
   </div>
 </section>

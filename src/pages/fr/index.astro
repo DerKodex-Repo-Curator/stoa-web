@@ -2,14 +2,16 @@
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Hero from '../../components/Hero.astro';
-import TryStoa from '../../components/TryStoa.astro';
+import WhyNow from '../../components/WhyNow.astro';
 import SocialProof from '../../components/SocialProof.astro';
 import Divider from '../../components/Divider.astro';
 import BeforeAfter from '../../components/BeforeAfter.astro';
 import TTFAC from '../../components/TTFAC.astro';
 import Features from '../../components/Features.astro';
 import Architecture from '../../components/Architecture.astro';
+import Scenario from '../../components/Scenario.astro';
 import Differentiators from '../../components/Differentiators.astro';
+import Company from '../../components/Company.astro';
 import Metrics from '../../components/Metrics.astro';
 import Standards from '../../components/Standards.astro';
 import Pricing from '../../components/Pricing.astro';
@@ -19,15 +21,15 @@ import Footer from '../../components/Footer.astro';
 ---
 
 <Layout
-  title="STOA — Passerelle MCP Open Source pour Agents IA"
-  description="Passerelle API open source conçue pour l'IA. Définir une fois, exposer partout. Connectez vos API legacy aux agents IA via MCP en quelques minutes. Souveraineté européenne, Apache 2.0."
+  title="STOA — Passerelle Agent Souveraine Européenne pour l'IA"
+  description="Connectez vos APIs legacy aux agents IA avec gouvernance complète. Souveraineté européenne, on-premise, DORA-supportif. Open source Apache 2.0."
   structuredDataType="SoftwareApplication"
 >
   <Header />
   <main>
     <Hero />
     <Divider color="teal" />
-    <TryStoa />
+    <WhyNow />
     <SocialProof />
     <Divider color="purple" />
     <BeforeAfter />
@@ -38,7 +40,9 @@ import Footer from '../../components/Footer.astro';
     <Divider color="orange" />
     <Architecture />
     <Divider color="green" />
+    <Scenario />
     <Differentiators />
+    <Company />
     <Metrics />
     <Standards />
     <Pricing />

@@ -5,11 +5,11 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<section class="ttfac" id="ttfac" aria-label="Time to First API Call comparison">
+<section class="ttfac" id="ttfac" aria-label="Integration effort comparison">
   <div class="section-container">
     <div class="section-header reveal" data-reveal>
       <span class="section-tag">{t('ttfac.tag')}</span>
-      <h2 class="section-title" set:html={t('ttfac.title').replace('minutes', '<span class="gradient-text">minutes</span>').replace('minutes', '<span class="gradient-text">minutes</span>')} />
+      <h2 class="section-title" set:html={t('ttfac.title')} />
       <p class="section-desc">{t('ttfac.description')}</p>
     </div>
 
@@ -20,8 +20,7 @@ const t = useTranslations(lang);
           <span>{t('ttfac.traditional.title')}</span>
         </div>
         <div class="ttfac-counter">
-          <span class="ttfac-number" data-counter="14">0</span>
-          <span class="ttfac-unit">{lang === 'fr' ? 'jours' : 'days'}</span>
+          <span class="ttfac-number">{t('ttfac.traditional.time')}</span>
         </div>
         <ul class="ttfac-steps">
           <li>{t('ttfac.traditional.step1')}</li>
@@ -52,13 +51,13 @@ const t = useTranslations(lang);
           <span>{t('ttfac.stoa.title')}</span>
         </div>
         <div class="ttfac-counter">
-          <span class="ttfac-number ttfac-number-green" data-counter="5">0</span>
-          <span class="ttfac-unit">minutes</span>
+          <span class="ttfac-number ttfac-number-green">{t('ttfac.stoa.time')}</span>
         </div>
         <ul class="ttfac-steps ttfac-steps-fast">
           <li>{t('ttfac.stoa.step1')}</li>
           <li>{t('ttfac.stoa.step2')}</li>
           <li>{t('ttfac.stoa.step3')}</li>
+          <li>{t('ttfac.stoa.step4')}</li>
         </ul>
       </div>
     </div>
