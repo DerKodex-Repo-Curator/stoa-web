@@ -23,7 +23,7 @@
   "hero.pillar3.title": "Govern",
   "hero.pillar3.desc": "Same policies for humans and AI agents. Every action audited.",
   "hero.cta.primary": "Book a Demo",
-  "hero.cta.secondary": "See the banking scenario",
+  "hero.cta.secondary": "See the deployment scenario",
 
   "whyNow.tag": "Why Now",
   "whyNow.title": "Three forces are converging on your <span class=\"gradient-text\">integration layer</span>",
@@ -54,7 +54,7 @@
   "beforeAfter.after.item4": "Orchestrate Kong, Gravitee, or Apigee from one control plane",
   "beforeAfter.after.item5": "AI agents governed by MCP — every call audited, metered, controlled",
 
-  "socialProof.label": "Built in France by CAB Ingénierie · 15+ years in banking integration · Rust · Python · React",
+  "socialProof.label": "Built in France by CAB Ingénierie · 15+ years in enterprise integration · Rust · Python · React",
 
   "ttfac.tag": "Integration Effort",
   "ttfac.title": "From custom <span class=\"gradient-text\">integration work</span> to declarative config",
@@ -149,7 +149,7 @@
   "standards.apache.sub": "True Open Source",
 
   "scenario.tag": "In Practice",
-  "scenario.title": "How a bank connects legacy APIs to <span class=\"gradient-text\">AI agents</span>",
+  "scenario.title": "How a regulated enterprise connects legacy APIs to <span class=\"gradient-text\">AI agents</span>",
   "scenario.description": "A representative deployment scenario based on typical enterprise integration patterns.",
   "scenario.week1.title": "Week 1 — Deploy & Connect",
   "scenario.week1.step1": "Deploy STOA on-premise (Helm chart on existing K8s cluster)",
@@ -167,9 +167,9 @@
 
   "company.tag": "Who We Are",
   "company.title": "Built by <span class=\"gradient-text\">integration experts</span>",
-  "company.description": "STOA is built by CAB Ingénierie, a French company with 15+ years of experience in banking integration.",
-  "company.founder.role": "Founder — 15+ years in banking integration",
-  "company.founder.description": "webMethods, API Management, and identity federation for European banks and financial institutions.",
+  "company.description": "STOA is built by CAB Ingénierie, a French company with 15+ years of experience in enterprise integration.",
+  "company.founder.role": "Founder — 15+ years in enterprise integration",
+  "company.founder.description": "webMethods, API Management, and identity federation for large European enterprises and regulated industries.",
   "company.stack.title": "Engineering choices",
   "company.stack.rust": "Rust gateway — high performance, memory safe, no GC pauses",
   "company.stack.python": "Python control plane — FastAPI, SQLAlchemy, async-first",
@@ -235,7 +235,7 @@
   "pricingFaq.q7": "How do we migrate from another API gateway?",
   "pricingFaq.a7": "STOA provides migration guides for Kong, Gravitee, Apigee, webMethods, Azure APIM, and AWS API Gateway. The multi-gateway orchestration feature lets you run STOA alongside your existing gateway during transition — no big-bang migration required.",
   "pricingFaq.q8": "Who is behind STOA?",
-  "pricingFaq.a8": "STOA is built by CAB Ingénierie, a French company with 15+ years of experience in banking integration (webMethods, API Management, identity federation). The platform is open source under Apache 2.0.",
+  "pricingFaq.a8": "STOA is built by CAB Ingénierie, a French company with 15+ years of experience in enterprise integration (webMethods, API Management, identity federation). The platform is open source under Apache 2.0.",
   "pricingFaq.footer": "Still have questions? Get in touch",
 
   "finalCta.title": "Ready to govern your AI agents?",
@@ -364,5 +364,5 @@
   "structuredData.software.feature4": "European Sovereign — Built in France, DORA-supportive, NIS2-ready",
   "structuredData.software.feature5": "Multi-Gateway — Orchestrate Kong, Gravitee, Apigee, webMethods from one control plane",
   "structuredData.software.feature6": "On-Premise — Full platform deployable on your infrastructure, air-gapped capable",
-  "structuredData.org.description": "French company building the European sovereign Agent Gateway for AI and MCP Protocol. 15+ years in banking integration."
+  "structuredData.org.description": "French company building the European sovereign Agent Gateway for AI and MCP Protocol. 15+ years in enterprise integration."
 }

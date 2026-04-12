@@ -23,7 +23,7 @@
   "hero.pillar3.title": "Gouverner",
   "hero.pillar3.desc": "Mêmes politiques pour les humains et les agents IA. Chaque action auditée.",
   "hero.cta.primary": "Réserver une démo",
-  "hero.cta.secondary": "Voir le scénario bancaire",
+  "hero.cta.secondary": "Voir le scénario de déploiement",
 
   "whyNow.tag": "Pourquoi maintenant",
   "whyNow.title": "Trois forces convergent sur votre <span class=\"gradient-text\">couche d'intégration</span>",
@@ -54,7 +54,7 @@
   "beforeAfter.after.item4": "Orchestrez Kong, Gravitee ou Apigee depuis un plan de contrôle unique",
   "beforeAfter.after.item5": "Agents IA gouvernés par MCP — chaque appel audité, mesuré, contrôlé",
 
-  "socialProof.label": "Construit en France par CAB Ingénierie · 15+ ans d'intégration bancaire · Rust · Python · React",
+  "socialProof.label": "Construit en France par CAB Ingénierie · 15+ ans d'intégration enterprise · Rust · Python · React",
 
   "ttfac.tag": "Effort d'intégration",
   "ttfac.title": "Du développement <span class=\"gradient-text\">sur mesure</span> à la configuration déclarative",
@@ -149,7 +149,7 @@
   "standards.apache.sub": "Vrai Open Source",
 
   "scenario.tag": "En pratique",
-  "scenario.title": "Comment une banque connecte ses APIs legacy aux <span class=\"gradient-text\">agents IA</span>",
+  "scenario.title": "Comment une entreprise réglementée connecte ses APIs legacy aux <span class=\"gradient-text\">agents IA</span>",
   "scenario.description": "Un scénario de déploiement représentatif basé sur des patterns d'intégration enterprise typiques.",
   "scenario.week1.title": "Semaine 1 — Déployer & connecter",
   "scenario.week1.step1": "Déployer STOA on-premise (chart Helm sur cluster K8s existant)",
@@ -167,9 +167,9 @@
 
   "company.tag": "Qui nous sommes",
   "company.title": "Construit par des <span class=\"gradient-text\">experts en intégration</span>",
-  "company.description": "STOA est construit par CAB Ingénierie, une société française avec 15+ ans d'expérience en intégration bancaire.",
-  "company.founder.role": "Fondateur — 15+ ans d'intégration bancaire",
-  "company.founder.description": "webMethods, API Management et fédération d'identité pour les banques et institutions financières européennes.",
+  "company.description": "STOA est construit par CAB Ingénierie, une société française avec 15+ ans d'expérience en intégration enterprise.",
+  "company.founder.role": "Fondateur — 15+ ans d'intégration enterprise",
+  "company.founder.description": "webMethods, API Management et fédération d'identité pour les grands comptes européens et les industries réglementées.",
   "company.stack.title": "Choix d'ingénierie",
   "company.stack.rust": "Passerelle Rust — haute performance, sûreté mémoire, pas de pauses GC",
   "company.stack.python": "Plan de contrôle Python — FastAPI, SQLAlchemy, async-first",
@@ -235,7 +235,7 @@
   "pricingFaq.q7": "Comment migrer depuis une autre passerelle API ?",
   "pricingFaq.a7": "STOA fournit des guides de migration pour Kong, Gravitee, Apigee, webMethods, Azure APIM et AWS API Gateway. L'orchestration multi-passerelle vous permet de faire tourner STOA en parallèle de votre passerelle existante pendant la transition — pas de migration big-bang.",
   "pricingFaq.q8": "Qui est derrière STOA ?",
-  "pricingFaq.a8": "STOA est construit par CAB Ingénierie, une société française avec 15+ ans d'expérience en intégration bancaire (webMethods, API Management, fédération d'identité). La plateforme est open source sous Apache 2.0.",
+  "pricingFaq.a8": "STOA est construit par CAB Ingénierie, une société française avec 15+ ans d'expérience en intégration enterprise (webMethods, API Management, fédération d'identité). La plateforme est open source sous Apache 2.0.",
   "pricingFaq.footer": "D'autres questions ? Contactez-nous",
 
   "finalCta.title": "Prêt à gouverner vos agents IA ?",
@@ -364,5 +364,5 @@
   "structuredData.software.feature4": "Souveraineté européenne — Construit en France, DORA-supportif, NIS2-ready",
   "structuredData.software.feature5": "Multi-Passerelle — Orchestrez Kong, Gravitee, Apigee, webMethods depuis un plan de contrôle unique",
   "structuredData.software.feature6": "On-Premise — Plateforme complète déployable sur votre infrastructure, compatible air-gapped",
-  "structuredData.org.description": "Société française construisant la passerelle Agent souveraine européenne pour l'IA et le protocole MCP. 15+ ans d'intégration bancaire."
+  "structuredData.org.description": "Société française construisant la passerelle Agent souveraine européenne pour l'IA et le protocole MCP. 15+ ans d'intégration enterprise."
 }
